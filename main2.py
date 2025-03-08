@@ -1,5 +1,6 @@
 import pygame
 import numpy as np
+from menu import *
 from config import *
 
 t = table(100)
@@ -12,6 +13,8 @@ screen = pygame.display.set_mode((800,800))
 
 clock = pygame.time.Clock()
 running = True
+
+main_menu()
 while running:
 
     screen.fill((0,0,0))

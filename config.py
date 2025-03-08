@@ -38,4 +38,3 @@ def walk(pos: tuple, theta: float, vel: float) -> (tuple):
 
     new_pos = (X + dX, Y + dY)
     return new_pos
-
